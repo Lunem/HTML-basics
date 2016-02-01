@@ -13,11 +13,33 @@ h1 {
 }
 
 body {
-  background-color: #a3a3a3;
+  background-color: #e0e0e0;
+}
+
+nav {
+  background-color: #252525;
+  position: fixed;
+  width: 60px;
+  height: 100vh;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav li{
+  margin-left: -60px;
+  margin-top: 20px;
+}
+
+nav i{
+  color: white;
 }
 
 .container {
-  width: 550px;
+  width: 800px;
   margin: 0 auto;
   text-align: center;
 }
@@ -37,11 +59,12 @@ color: #494949;
 text-decoration: none;
 }
 
-.white-box {
+.white-card {
   background-color: #ffffff;
   border-radius: 8px;
   margin-bottom: 20px;
   padding: 20px;
+  box-shadow: 10px 10px 10px 0px #cfcfcf;
 }
 
 #me {
@@ -83,9 +106,4 @@ i:hover {
 .movies p {
   text-align: justify;
   padding: 20px;
-}
-
-
-.movies-summary {
-
 }
